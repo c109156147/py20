@@ -1,0 +1,23 @@
+y=int(input("請輸入西元年"))
+if(y%12==6):
+    print(str("tiger"))
+elif(y%12==5):
+    print(str("ox"))
+elif(y%12==4):
+    print(str("rat"))
+elif(y%12==7):
+    print(str("rabbit"))
+elif(y%12==8):
+    print(str("dragon"))
+elif(y%12==9):
+    print(str("snake"))
+elif(y%12==10):
+    print(str("horse"))
+elif(y%12==11):
+    print(str("monkey"))
+elif(y%12==1):
+    print(str("chicken"))
+elif(y%12==2):
+    print(str("dog"))
+elif(y%12==3):
+    print(str("pig"))
